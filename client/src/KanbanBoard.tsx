@@ -145,7 +145,6 @@ const KanbanBoard = () => {
         if (!over) return;
 
         const activeId = active.id;
-        const overId = over.id;
 
         // We assume the state `tasks` is already updated by `onDragOver` for visual changes (order and status).
         // Now we must persist this order to the backend.
